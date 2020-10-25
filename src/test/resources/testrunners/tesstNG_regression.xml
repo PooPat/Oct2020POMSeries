@@ -10,8 +10,8 @@
 	</listeners> 
 
 
-	<test name="Login page Test - FF">
-		<parameter name="browser" value="firefox" />
+	<test name="Login page Test - Chrome">
+		<parameter name="browser" value="chrome" />
 
 		<classes>
 			<class name="com.qa.hubspot.tests.LoginPageTest" />
@@ -23,7 +23,16 @@
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<class name="com.qa.hubspot.tests.LoginPageTest" />
+			<class name="com.qa.hubspot.tests.HomePageTest" />
+		</classes>
+
+	</test>
+	
+	<test name="Login page Test - Chrome">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.qa.hubspot.tests.ContactsPageTest" />
 		</classes>
 
 	</test>

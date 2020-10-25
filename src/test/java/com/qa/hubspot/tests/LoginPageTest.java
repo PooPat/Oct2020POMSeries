@@ -29,7 +29,7 @@ public class LoginPageTest extends BaseTest{
 		HomePage homePage =loginPage.loginAccount(prop.getProperty("username").trim(), prop.getProperty("password").trim());
 		String homePgTitle = homePage.getHomePageTitle();
 		System.out.println("Home Page title is: "+ homePgTitle);
-		Assert.assertEquals(homePgTitle, prop.getProperty("accountname"));
+		Assert.assertEquals(homePgTitle, Constants.PAGE_TITLE);
 	}
 
 
