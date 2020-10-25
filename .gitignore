@@ -26,15 +26,6 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 ##############################
-## Gradle
-##############################
-bin/
-build/
-.gradle
-.gradletasknamecache
-gradle-app.setting
-!gradle-wrapper.jar
-##############################
 ## IntelliJ
 ##############################
 out/
@@ -60,17 +51,6 @@ local.properties
 .loadpath
 .factorypath
 ##############################
-## NetBeans
+## OS X
 ##############################
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-##############################
-## Visual Studio Code
-##############################
-.vscode/
-#########################
+.DS_Store
