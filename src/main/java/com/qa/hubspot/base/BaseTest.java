@@ -20,7 +20,7 @@ public class BaseTest {
 	protected HomePage homePage;
 	protected ContactsPage contactsPage;
 	
-    @Parameters("browser")
+    @Parameters({"browser"})
 	@BeforeTest
 	public void setup(String browserName) {
 		basePage = new BasePage();
