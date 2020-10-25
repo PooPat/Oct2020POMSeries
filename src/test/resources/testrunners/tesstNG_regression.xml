@@ -19,8 +19,8 @@
 
 	</test>
 
-	<test name="Login page Test - Chrome">
-		<parameter name="browser" value="chrome" />
+	<test name="Home page Test - ff">
+		<parameter name="browser" value="firefox" />
 
 		<classes>
 			<class name="com.qa.hubspot.tests.HomePageTest" />
@@ -28,7 +28,7 @@
 
 	</test>
 	
-	<test name="Login page Test - Chrome">
+	<test name="Contacts page Test - Chrome">
 		<parameter name="browser" value="chrome" />
 
 		<classes>
