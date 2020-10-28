@@ -6,7 +6,7 @@
 	<listeners>
 		<listener class-name="com.qa.hubspot.listeners.ExtentReportListener" />
 		<listener class-name="com.qa.hubspot.listeners.TesultsListener" />
-		
+		<listener class-name="com.qa.hubspot.listeners.TestAllureListener" />
 	</listeners> 
 
 
@@ -19,7 +19,7 @@
 
 	</test>
 
-	<test name="Home page Test - ff">
+	<test name="Login page Test - ff">
 		<parameter name="browser" value="firefox" />
 
 		<classes>
@@ -28,11 +28,11 @@
 
 	</test>
 	
-	<test name="Contacts page Test - Chrome">
+	<test name="Login page Test - Chrome">
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<class name="com.qa.hubspot.tests.ContactsPageTest" />
+			<class name="com.qa.hubspot.tests.LoginPageTest" />
 		</classes>
 
 	</test>
