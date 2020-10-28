@@ -2,22 +2,22 @@
 <testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="319" started-at="2020-10-28T20:22:08Z" finished-at="2020-10-28T20:22:09Z">
+  <suite name="Default suite" duration-ms="407" started-at="2020-10-28T20:46:06Z" finished-at="2020-10-28T20:46:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="319" started-at="2020-10-28T20:22:08Z" finished-at="2020-10-28T20:22:09Z">
+    <test name="Default test" duration-ms="407" started-at="2020-10-28T20:46:06Z" finished-at="2020-10-28T20:46:07Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@5ac86ba5]" name="setUp" is-config="true" duration-ms="0" started-at="2020-10-28T20:22:08Z" finished-at="2020-10-28T20:22:08Z">
+        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@4a9f80d3]" name="setUp" is-config="true" duration-ms="0" started-at="2020-10-28T20:46:06Z" finished-at="2020-10-28T20:46:06Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeTest on method setUp but has not been marked @Optional or defined
-in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-732068503\testng-customsuite.xml]]>
+in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-390447585\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeTest on method setUp but has not been marked @Optional or defined
-in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-732068503\testng-customsuite.xml
+in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-390447585\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -45,17 +45,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifySignupLinkVsibleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@5ac86ba5]" name="verifySignupLinkVsibleTest" duration-ms="0" started-at="2020-10-28T20:22:08Z" finished-at="2020-10-28T20:22:08Z">
+        <test-method status="SKIP" signature="verifySignupLinkVsibleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@4a9f80d3]" name="verifySignupLinkVsibleTest" duration-ms="0" started-at="2020-10-28T20:46:06Z" finished-at="2020-10-28T20:46:06Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeTest on method setUp but has not been marked @Optional or defined
-in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-732068503\testng-customsuite.xml]]>
+in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-390447585\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeTest on method setUp but has not been marked @Optional or defined
-in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-732068503\testng-customsuite.xml
+in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-390447585\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -83,17 +83,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignupLinkVsibleTest -->
-        <test-method status="SKIP" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@5ac86ba5]" name="verifyLoginPageTitleTest" duration-ms="0" started-at="2020-10-28T20:22:09Z" finished-at="2020-10-28T20:22:09Z">
+        <test-method status="SKIP" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@4a9f80d3]" name="verifyLoginPageTitleTest" duration-ms="0" started-at="2020-10-28T20:46:06Z" finished-at="2020-10-28T20:46:06Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeTest on method setUp but has not been marked @Optional or defined
-in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-732068503\testng-customsuite.xml]]>
+in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-390447585\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeTest on method setUp but has not been marked @Optional or defined
-in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-732068503\testng-customsuite.xml
+in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-390447585\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -121,17 +121,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="SKIP" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@5ac86ba5]" name="loginTest" duration-ms="0" started-at="2020-10-28T20:22:09Z" finished-at="2020-10-28T20:22:09Z">
+        <test-method status="SKIP" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@4a9f80d3]" name="loginTest" duration-ms="0" started-at="2020-10-28T20:46:07Z" finished-at="2020-10-28T20:46:07Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeTest on method setUp but has not been marked @Optional or defined
-in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-732068503\testng-customsuite.xml]]>
+in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-390447585\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeTest on method setUp but has not been marked @Optional or defined
-in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-732068503\testng-customsuite.xml
+in C:\Users\sanke\AppData\Local\Temp\testng-eclipse-390447585\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -159,7 +159,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@5ac86ba5]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-28T20:22:09Z" finished-at="2020-10-28T20:22:09Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@4a9f80d3]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-28T20:46:07Z" finished-at="2020-10-28T20:46:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
