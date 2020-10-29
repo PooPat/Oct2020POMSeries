@@ -3,21 +3,21 @@ pipeline{
     
     stages{
         
-        stage("Build"){
+        stage('Build'){
             steps{
                 echo "Building"
             }
         }
         
-        stage("Test"){
+        stage('Test'){
             steps{
-                catchError(buildResult: 'SUCCESS", stageResult: 'FAILURE') {
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                 bat "mvn clean install"
             }
         }
     }
         
-        stage("Publish Allure Report"){
+        stage('Publish Allure Report'){
            steps{
              script {
                  allure([
